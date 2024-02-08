@@ -7,8 +7,8 @@ const path = require("path");
 /*
  * Розкоментуйте і запишить значення*/
 // const contactsPath = require("./db/contacts.json");
-const contactsPath = path.join(__dirname, "db/contacts.json")
- console.log(__dirname)
+const contactsPath = path.join(__dirname, "./db/contacts.json")
+
 
 // TODO: задокументувати кожну функцію
 async function listContacts() {

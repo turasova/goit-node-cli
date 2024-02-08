@@ -1,7 +1,6 @@
 // import { program } from "commander";
 const { Command} = require('commander');
 const contacts = require('./contacts.js');
-const argv = require('yargs').argv;
 const program = new Command();
 
 program
